@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBF473320D1184D00D57B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF473220D1184D00D57B3C /* AppDelegate.swift */; };
+		FDBF473520D1184D00D57B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF473420D1184D00D57B3C /* ViewController.swift */; };
+		FDBF473820D1184D00D57B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBF473620D1184D00D57B3C /* Main.storyboard */; };
+		FDBF473A20D1184E00D57B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBF473920D1184E00D57B3C /* Assets.xcassets */; };
+		FDBF473D20D1184E00D57B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBF473B20D1184E00D57B3C /* LaunchScreen.storyboard */; };
+		FDBF474820D1184E00D57B3C /* PoorPigsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF474720D1184E00D57B3C /* PoorPigsTests.swift */; };
+		FDBF475320D1184E00D57B3C /* PoorPigsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF475220D1184E00D57B3C /* PoorPigsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBF474420D1184E00D57B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBF472720D1184D00D57B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBF472E20D1184D00D57B3C;
+			remoteInfo = PoorPigs;
+		};
+		FDBF474F20D1184E00D57B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBF472720D1184D00D57B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBF472E20D1184D00D57B3C;
+			remoteInfo = PoorPigs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDBF472F20D1184D00D57B3C /* PoorPigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoorPigs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF473220D1184D00D57B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBF473420D1184D00D57B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDBF473720D1184D00D57B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDBF473920D1184E00D57B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDBF473C20D1184E00D57B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDBF473E20D1184E00D57B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBF474320D1184E00D57B3C /* PoorPigsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoorPigsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF474720D1184E00D57B3C /* PoorPigsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoorPigsTests.swift; sourceTree = "<group>"; };
+		FDBF474920D1184E00D57B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBF474E20D1184E00D57B3C /* PoorPigsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoorPigsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF475220D1184E00D57B3C /* PoorPigsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoorPigsUITests.swift; sourceTree = "<group>"; };
+		FDBF475420D1184E00D57B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBF472C20D1184D00D57B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF474020D1184E00D57B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF474B20D1184E00D57B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBF472620D1184D00D57B3C = {
+			isa = PBXGroup;
+			children = (
+				FDBF473120D1184D00D57B3C /* PoorPigs */,
+				FDBF474620D1184E00D57B3C /* PoorPigsTests */,
+				FDBF475120D1184E00D57B3C /* PoorPigsUITests */,
+				FDBF473020D1184D00D57B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBF473020D1184D00D57B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF472F20D1184D00D57B3C /* PoorPigs.app */,
+				FDBF474320D1184E00D57B3C /* PoorPigsTests.xctest */,
+				FDBF474E20D1184E00D57B3C /* PoorPigsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBF473120D1184D00D57B3C /* PoorPigs */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF473220D1184D00D57B3C /* AppDelegate.swift */,
+				FDBF473420D1184D00D57B3C /* ViewController.swift */,
+				FDBF473620D1184D00D57B3C /* Main.storyboard */,
+				FDBF473920D1184E00D57B3C /* Assets.xcassets */,
+				FDBF473B20D1184E00D57B3C /* LaunchScreen.storyboard */,
+				FDBF473E20D1184E00D57B3C /* Info.plist */,
+			);
+			path = PoorPigs;
+			sourceTree = "<group>";
+		};
+		FDBF474620D1184E00D57B3C /* PoorPigsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF474720D1184E00D57B3C /* PoorPigsTests.swift */,
+				FDBF474920D1184E00D57B3C /* Info.plist */,
+			);
+			path = PoorPigsTests;
+			sourceTree = "<group>";
+		};
+		FDBF475120D1184E00D57B3C /* PoorPigsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF475220D1184E00D57B3C /* PoorPigsUITests.swift */,
+				FDBF475420D1184E00D57B3C /* Info.plist */,
+			);
+			path = PoorPigsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBF472E20D1184D00D57B3C /* PoorPigs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBF475720D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigs" */;
+			buildPhases = (
+				FDBF472B20D1184D00D57B3C /* Sources */,
+				FDBF472C20D1184D00D57B3C /* Frameworks */,
+				FDBF472D20D1184D00D57B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoorPigs;
+			productName = PoorPigs;
+			productReference = FDBF472F20D1184D00D57B3C /* PoorPigs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBF474220D1184E00D57B3C /* PoorPigsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBF475A20D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigsTests" */;
+			buildPhases = (
+				FDBF473F20D1184E00D57B3C /* Sources */,
+				FDBF474020D1184E00D57B3C /* Frameworks */,
+				FDBF474120D1184E00D57B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBF474520D1184E00D57B3C /* PBXTargetDependency */,
+			);
+			name = PoorPigsTests;
+			productName = PoorPigsTests;
+			productReference = FDBF474320D1184E00D57B3C /* PoorPigsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDBF474D20D1184E00D57B3C /* PoorPigsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBF475D20D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigsUITests" */;
+			buildPhases = (
+				FDBF474A20D1184E00D57B3C /* Sources */,
+				FDBF474B20D1184E00D57B3C /* Frameworks */,
+				FDBF474C20D1184E00D57B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBF475020D1184E00D57B3C /* PBXTargetDependency */,
+			);
+			name = PoorPigsUITests;
+			productName = PoorPigsUITests;
+			productReference = FDBF474E20D1184E00D57B3C /* PoorPigsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBF472720D1184D00D57B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = slwy;
+				TargetAttributes = {
+					FDBF472E20D1184D00D57B3C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FDBF474220D1184E00D57B3C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FDBF472E20D1184D00D57B3C;
+					};
+					FDBF474D20D1184E00D57B3C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FDBF472E20D1184D00D57B3C;
+					};
+				};
+			};
+			buildConfigurationList = FDBF472A20D1184D00D57B3C /* Build configuration list for PBXProject "PoorPigs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBF472620D1184D00D57B3C;
+			productRefGroup = FDBF473020D1184D00D57B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBF472E20D1184D00D57B3C /* PoorPigs */,
+				FDBF474220D1184E00D57B3C /* PoorPigsTests */,
+				FDBF474D20D1184E00D57B3C /* PoorPigsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBF472D20D1184D00D57B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF473D20D1184E00D57B3C /* LaunchScreen.storyboard in Resources */,
+				FDBF473A20D1184E00D57B3C /* Assets.xcassets in Resources */,
+				FDBF473820D1184D00D57B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF474120D1184E00D57B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF474C20D1184E00D57B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBF472B20D1184D00D57B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF473520D1184D00D57B3C /* ViewController.swift in Sources */,
+				FDBF473320D1184D00D57B3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF473F20D1184E00D57B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF474820D1184E00D57B3C /* PoorPigsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF474A20D1184E00D57B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF475320D1184E00D57B3C /* PoorPigsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBF474520D1184E00D57B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBF472E20D1184D00D57B3C /* PoorPigs */;
+			targetProxy = FDBF474420D1184E00D57B3C /* PBXContainerItemProxy */;
+		};
+		FDBF475020D1184E00D57B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBF472E20D1184D00D57B3C /* PoorPigs */;
+			targetProxy = FDBF474F20D1184E00D57B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBF473620D1184D00D57B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBF473720D1184D00D57B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDBF473B20D1184E00D57B3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBF473C20D1184E00D57B3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBF475520D1184E00D57B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDBF475620D1184E00D57B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBF475820D1184E00D57B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDBF475920D1184E00D57B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDBF475B20D1184E00D57B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoorPigs.app/PoorPigs";
+			};
+			name = Debug;
+		};
+		FDBF475C20D1184E00D57B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoorPigs.app/PoorPigs";
+			};
+			name = Release;
+		};
+		FDBF475E20D1184E00D57B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoorPigs;
+			};
+			name = Debug;
+		};
+		FDBF475F20D1184E00D57B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = PoorPigsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.PoorPigsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoorPigs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBF472A20D1184D00D57B3C /* Build configuration list for PBXProject "PoorPigs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF475520D1184E00D57B3C /* Debug */,
+				FDBF475620D1184E00D57B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBF475720D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF475820D1184E00D57B3C /* Debug */,
+				FDBF475920D1184E00D57B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBF475A20D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF475B20D1184E00D57B3C /* Debug */,
+				FDBF475C20D1184E00D57B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBF475D20D1184E00D57B3C /* Build configuration list for PBXNativeTarget "PoorPigsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBF475E20D1184E00D57B3C /* Debug */,
+				FDBF475F20D1184E00D57B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBF472720D1184D00D57B3C /* Project object */;
+}
