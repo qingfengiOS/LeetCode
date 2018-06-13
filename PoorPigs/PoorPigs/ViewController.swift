@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PoorPigs
 //
-//  Created by 李一平 on 2018/6/13.
+//  Created by qingfengiOS on 2018/6/13.
 //  Copyright © 2018年 slwy. All rights reserved.
 //
 
@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let resOfPig = poorPigs(100, 15, 60)
+        let resOfPig = poorPigs(1000, 15, 60)
         print(resOfPig)
     }
 
