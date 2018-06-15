@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4F52E120D271D8009C97F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F52E020D271D8009C97F0 /* AppDelegate.swift */; };
+		FD4F52E320D271D8009C97F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F52E220D271D8009C97F0 /* ViewController.swift */; };
+		FD4F52E620D271D8009C97F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F52E420D271D8009C97F0 /* Main.storyboard */; };
+		FD4F52E820D271D9009C97F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4F52E720D271D9009C97F0 /* Assets.xcassets */; };
+		FD4F52EB20D271D9009C97F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F52E920D271D9009C97F0 /* LaunchScreen.storyboard */; };
+		FD4F52F620D271D9009C97F0 /* FindMedianSortedArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F52F520D271D9009C97F0 /* FindMedianSortedArraysTests.swift */; };
+		FD4F530120D271D9009C97F0 /* FindMedianSortedArraysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F530020D271D9009C97F0 /* FindMedianSortedArraysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4F52F220D271D9009C97F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4F52D520D271D8009C97F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4F52DC20D271D8009C97F0;
+			remoteInfo = FindMedianSortedArrays;
+		};
+		FD4F52FD20D271D9009C97F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4F52D520D271D8009C97F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4F52DC20D271D8009C97F0;
+			remoteInfo = FindMedianSortedArrays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4F52DD20D271D8009C97F0 /* FindMedianSortedArrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMedianSortedArrays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F52E020D271D8009C97F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD4F52E220D271D8009C97F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD4F52E520D271D8009C97F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4F52E720D271D9009C97F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4F52EA20D271D9009C97F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD4F52EC20D271D9009C97F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F52F120D271D9009C97F0 /* FindMedianSortedArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMedianSortedArraysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F52F520D271D9009C97F0 /* FindMedianSortedArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianSortedArraysTests.swift; sourceTree = "<group>"; };
+		FD4F52F720D271D9009C97F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F52FC20D271D9009C97F0 /* FindMedianSortedArraysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMedianSortedArraysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F530020D271D9009C97F0 /* FindMedianSortedArraysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianSortedArraysUITests.swift; sourceTree = "<group>"; };
+		FD4F530220D271D9009C97F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4F52DA20D271D8009C97F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52EE20D271D9009C97F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52F920D271D9009C97F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4F52D420D271D8009C97F0 = {
+			isa = PBXGroup;
+			children = (
+				FD4F52DF20D271D8009C97F0 /* FindMedianSortedArrays */,
+				FD4F52F420D271D9009C97F0 /* FindMedianSortedArraysTests */,
+				FD4F52FF20D271D9009C97F0 /* FindMedianSortedArraysUITests */,
+				FD4F52DE20D271D8009C97F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4F52DE20D271D8009C97F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F52DD20D271D8009C97F0 /* FindMedianSortedArrays.app */,
+				FD4F52F120D271D9009C97F0 /* FindMedianSortedArraysTests.xctest */,
+				FD4F52FC20D271D9009C97F0 /* FindMedianSortedArraysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4F52DF20D271D8009C97F0 /* FindMedianSortedArrays */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F52E020D271D8009C97F0 /* AppDelegate.swift */,
+				FD4F52E220D271D8009C97F0 /* ViewController.swift */,
+				FD4F52E420D271D8009C97F0 /* Main.storyboard */,
+				FD4F52E720D271D9009C97F0 /* Assets.xcassets */,
+				FD4F52E920D271D9009C97F0 /* LaunchScreen.storyboard */,
+				FD4F52EC20D271D9009C97F0 /* Info.plist */,
+			);
+			path = FindMedianSortedArrays;
+			sourceTree = "<group>";
+		};
+		FD4F52F420D271D9009C97F0 /* FindMedianSortedArraysTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F52F520D271D9009C97F0 /* FindMedianSortedArraysTests.swift */,
+				FD4F52F720D271D9009C97F0 /* Info.plist */,
+			);
+			path = FindMedianSortedArraysTests;
+			sourceTree = "<group>";
+		};
+		FD4F52FF20D271D9009C97F0 /* FindMedianSortedArraysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F530020D271D9009C97F0 /* FindMedianSortedArraysUITests.swift */,
+				FD4F530220D271D9009C97F0 /* Info.plist */,
+			);
+			path = FindMedianSortedArraysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4F52DC20D271D8009C97F0 /* FindMedianSortedArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F530520D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArrays" */;
+			buildPhases = (
+				FD4F52D920D271D8009C97F0 /* Sources */,
+				FD4F52DA20D271D8009C97F0 /* Frameworks */,
+				FD4F52DB20D271D8009C97F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMedianSortedArrays;
+			productName = FindMedianSortedArrays;
+			productReference = FD4F52DD20D271D8009C97F0 /* FindMedianSortedArrays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4F52F020D271D9009C97F0 /* FindMedianSortedArraysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F530820D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArraysTests" */;
+			buildPhases = (
+				FD4F52ED20D271D9009C97F0 /* Sources */,
+				FD4F52EE20D271D9009C97F0 /* Frameworks */,
+				FD4F52EF20D271D9009C97F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4F52F320D271D9009C97F0 /* PBXTargetDependency */,
+			);
+			name = FindMedianSortedArraysTests;
+			productName = FindMedianSortedArraysTests;
+			productReference = FD4F52F120D271D9009C97F0 /* FindMedianSortedArraysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD4F52FB20D271D9009C97F0 /* FindMedianSortedArraysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F530B20D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArraysUITests" */;
+			buildPhases = (
+				FD4F52F820D271D9009C97F0 /* Sources */,
+				FD4F52F920D271D9009C97F0 /* Frameworks */,
+				FD4F52FA20D271D9009C97F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4F52FE20D271D9009C97F0 /* PBXTargetDependency */,
+			);
+			name = FindMedianSortedArraysUITests;
+			productName = FindMedianSortedArraysUITests;
+			productReference = FD4F52FC20D271D9009C97F0 /* FindMedianSortedArraysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4F52D520D271D8009C97F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = slwy;
+				TargetAttributes = {
+					FD4F52DC20D271D8009C97F0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FD4F52F020D271D9009C97F0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FD4F52DC20D271D8009C97F0;
+					};
+					FD4F52FB20D271D9009C97F0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FD4F52DC20D271D8009C97F0;
+					};
+				};
+			};
+			buildConfigurationList = FD4F52D820D271D8009C97F0 /* Build configuration list for PBXProject "FindMedianSortedArrays" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4F52D420D271D8009C97F0;
+			productRefGroup = FD4F52DE20D271D8009C97F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4F52DC20D271D8009C97F0 /* FindMedianSortedArrays */,
+				FD4F52F020D271D9009C97F0 /* FindMedianSortedArraysTests */,
+				FD4F52FB20D271D9009C97F0 /* FindMedianSortedArraysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4F52DB20D271D8009C97F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F52EB20D271D9009C97F0 /* LaunchScreen.storyboard in Resources */,
+				FD4F52E820D271D9009C97F0 /* Assets.xcassets in Resources */,
+				FD4F52E620D271D8009C97F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52EF20D271D9009C97F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52FA20D271D9009C97F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4F52D920D271D8009C97F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F52E320D271D8009C97F0 /* ViewController.swift in Sources */,
+				FD4F52E120D271D8009C97F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52ED20D271D9009C97F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F52F620D271D9009C97F0 /* FindMedianSortedArraysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F52F820D271D9009C97F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F530120D271D9009C97F0 /* FindMedianSortedArraysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4F52F320D271D9009C97F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4F52DC20D271D8009C97F0 /* FindMedianSortedArrays */;
+			targetProxy = FD4F52F220D271D9009C97F0 /* PBXContainerItemProxy */;
+		};
+		FD4F52FE20D271D9009C97F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4F52DC20D271D8009C97F0 /* FindMedianSortedArrays */;
+			targetProxy = FD4F52FD20D271D9009C97F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4F52E420D271D8009C97F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4F52E520D271D8009C97F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4F52E920D271D9009C97F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4F52EA20D271D9009C97F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4F530320D271D9009C97F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD4F530420D271D9009C97F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4F530620D271D9009C97F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArrays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArrays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD4F530720D271D9009C97F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArrays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArrays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD4F530920D271D9009C97F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArraysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArraysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMedianSortedArrays.app/FindMedianSortedArrays";
+			};
+			name = Debug;
+		};
+		FD4F530A20D271D9009C97F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArraysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArraysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMedianSortedArrays.app/FindMedianSortedArrays";
+			};
+			name = Release;
+		};
+		FD4F530C20D271D9009C97F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArraysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArraysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMedianSortedArrays;
+			};
+			name = Debug;
+		};
+		FD4F530D20D271D9009C97F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = FindMedianSortedArraysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.FindMedianSortedArraysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMedianSortedArrays;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4F52D820D271D8009C97F0 /* Build configuration list for PBXProject "FindMedianSortedArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F530320D271D9009C97F0 /* Debug */,
+				FD4F530420D271D9009C97F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F530520D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F530620D271D9009C97F0 /* Debug */,
+				FD4F530720D271D9009C97F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F530820D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArraysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F530920D271D9009C97F0 /* Debug */,
+				FD4F530A20D271D9009C97F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F530B20D271D9009C97F0 /* Build configuration list for PBXNativeTarget "FindMedianSortedArraysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F530C20D271D9009C97F0 /* Debug */,
+				FD4F530D20D271D9009C97F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4F52D520D271D8009C97F0 /* Project object */;
+}
