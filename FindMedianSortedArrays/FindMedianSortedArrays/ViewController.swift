@@ -16,14 +16,14 @@ class ViewController: UIViewController {
         let arrayOne = [2, 6, 9, 10, 34 ]
         let arrayTwo = [7, 8, 25, 45, 67, 88]
         
-        print(findMedianSortedArrays(arrayOne, arrayTwo))
+        print(FindMedianSortedArrays(arrayOne, arrayTwo))
         
         print(firstBigThanSecond(2, 5))
         print(firstBigThanSecond(8.0, 5.6))
     }
     
     
-    func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Any {
+    func FindMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Any {
         
         var res: Array<Int> = [Int]();
         
