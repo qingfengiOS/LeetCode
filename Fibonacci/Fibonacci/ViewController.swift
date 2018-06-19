@@ -13,19 +13,35 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("fibonacci number = \(Fibonacci(10))")
+        print("fibonacci number = \(fibonacci(10))")
+        print("fibonacci number = \(recursionFibonacci(10))")
+        
         /*
          常规的递归算法的很多计算都是重复的，而且这个重复会随着n的增加而急剧增大
          使用循环，记录上次的值，能够减少重复计算带来的额外开销
          */
     }
     
-    
-    /// 求菲波那切数列
+    /// 递归求菲波那切数列
     ///
     /// - Parameter n: 目标
     /// - Returns: 返回的结果
-    func Fibonacci(_ n: Int) -> Int {
+    func recursionFibonacci(_ n: Int) -> Int {
+ 
+        if n <= 0 {
+            return 0
+        }
+        if n == 1 {
+            return 1
+        }
+        return recursionFibonacci(n - 2) + recursionFibonacci(n - 1)
+    }
+    
+    /// 循环求菲波那切数列
+    ///
+    /// - Parameter n: 目标
+    /// - Returns: 返回的结果
+    func fibonacci(_ n: Int) -> Int {
         
         let result = [0, 1]
         if n < 2 {
