@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD9020EC20F642ED0021AB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9020EB20F642ED0021AB25 /* AppDelegate.m */; };
+		FD9020EF20F642ED0021AB25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9020EE20F642ED0021AB25 /* ViewController.m */; };
+		FD9020F220F642ED0021AB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9020F020F642ED0021AB25 /* Main.storyboard */; };
+		FD9020F420F642ED0021AB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9020F320F642ED0021AB25 /* Assets.xcassets */; };
+		FD9020F720F642ED0021AB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9020F520F642ED0021AB25 /* LaunchScreen.storyboard */; };
+		FD9020FA20F642ED0021AB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9020F920F642ED0021AB25 /* main.m */; };
+		FD90210420F642EE0021AB25 /* ReverseArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90210320F642EE0021AB25 /* ReverseArrayTests.m */; };
+		FD90210F20F642EE0021AB25 /* ReverseArrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90210E20F642EE0021AB25 /* ReverseArrayUITests.m */; };
+		FD90212120F6433C0021AB25 /* NSArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90212020F6433C0021AB25 /* NSArray+Reverse.m */; };
+		FD90212420F6448D0021AB25 /* NSMutableArray+Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = FD90212320F6448D0021AB25 /* NSMutableArray+Reverse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD90210020F642EE0021AB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9020DF20F642ED0021AB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9020E620F642ED0021AB25;
+			remoteInfo = ReverseArray;
+		};
+		FD90210B20F642EE0021AB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD9020DF20F642ED0021AB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9020E620F642ED0021AB25;
+			remoteInfo = ReverseArray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD9020E720F642ED0021AB25 /* ReverseArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9020EA20F642ED0021AB25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD9020EB20F642ED0021AB25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD9020ED20F642ED0021AB25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD9020EE20F642ED0021AB25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD9020F120F642ED0021AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD9020F320F642ED0021AB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD9020F620F642ED0021AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD9020F820F642ED0021AB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9020F920F642ED0021AB25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD9020FF20F642EE0021AB25 /* ReverseArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD90210320F642EE0021AB25 /* ReverseArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseArrayTests.m; sourceTree = "<group>"; };
+		FD90210520F642EE0021AB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD90210A20F642EE0021AB25 /* ReverseArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseArrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD90210E20F642EE0021AB25 /* ReverseArrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseArrayUITests.m; sourceTree = "<group>"; };
+		FD90211020F642EE0021AB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD90211F20F6433C0021AB25 /* NSArray+Reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Reverse.h"; sourceTree = "<group>"; };
+		FD90212020F6433C0021AB25 /* NSArray+Reverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Reverse.m"; sourceTree = "<group>"; };
+		FD90212220F6448D0021AB25 /* NSMutableArray+Reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Reverse.h"; sourceTree = "<group>"; };
+		FD90212320F6448D0021AB25 /* NSMutableArray+Reverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Reverse.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD9020E420F642ED0021AB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9020FC20F642EE0021AB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD90210720F642EE0021AB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD9020DE20F642ED0021AB25 = {
+			isa = PBXGroup;
+			children = (
+				FD9020E920F642ED0021AB25 /* ReverseArray */,
+				FD90210220F642EE0021AB25 /* ReverseArrayTests */,
+				FD90210D20F642EE0021AB25 /* ReverseArrayUITests */,
+				FD9020E820F642ED0021AB25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9020E820F642ED0021AB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9020E720F642ED0021AB25 /* ReverseArray.app */,
+				FD9020FF20F642EE0021AB25 /* ReverseArrayTests.xctest */,
+				FD90210A20F642EE0021AB25 /* ReverseArrayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD9020E920F642ED0021AB25 /* ReverseArray */ = {
+			isa = PBXGroup;
+			children = (
+				FD9020EA20F642ED0021AB25 /* AppDelegate.h */,
+				FD9020EB20F642ED0021AB25 /* AppDelegate.m */,
+				FD9020ED20F642ED0021AB25 /* ViewController.h */,
+				FD9020EE20F642ED0021AB25 /* ViewController.m */,
+				FD90211F20F6433C0021AB25 /* NSArray+Reverse.h */,
+				FD90212020F6433C0021AB25 /* NSArray+Reverse.m */,
+				FD90212220F6448D0021AB25 /* NSMutableArray+Reverse.h */,
+				FD90212320F6448D0021AB25 /* NSMutableArray+Reverse.m */,
+				FD9020F020F642ED0021AB25 /* Main.storyboard */,
+				FD9020F320F642ED0021AB25 /* Assets.xcassets */,
+				FD9020F520F642ED0021AB25 /* LaunchScreen.storyboard */,
+				FD9020F820F642ED0021AB25 /* Info.plist */,
+				FD9020F920F642ED0021AB25 /* main.m */,
+			);
+			path = ReverseArray;
+			sourceTree = "<group>";
+		};
+		FD90210220F642EE0021AB25 /* ReverseArrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD90210320F642EE0021AB25 /* ReverseArrayTests.m */,
+				FD90210520F642EE0021AB25 /* Info.plist */,
+			);
+			path = ReverseArrayTests;
+			sourceTree = "<group>";
+		};
+		FD90210D20F642EE0021AB25 /* ReverseArrayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD90210E20F642EE0021AB25 /* ReverseArrayUITests.m */,
+				FD90211020F642EE0021AB25 /* Info.plist */,
+			);
+			path = ReverseArrayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD9020E620F642ED0021AB25 /* ReverseArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD90211320F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArray" */;
+			buildPhases = (
+				FD9020E320F642ED0021AB25 /* Sources */,
+				FD9020E420F642ED0021AB25 /* Frameworks */,
+				FD9020E520F642ED0021AB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseArray;
+			productName = ReverseArray;
+			productReference = FD9020E720F642ED0021AB25 /* ReverseArray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD9020FE20F642EE0021AB25 /* ReverseArrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD90211620F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArrayTests" */;
+			buildPhases = (
+				FD9020FB20F642EE0021AB25 /* Sources */,
+				FD9020FC20F642EE0021AB25 /* Frameworks */,
+				FD9020FD20F642EE0021AB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD90210120F642EE0021AB25 /* PBXTargetDependency */,
+			);
+			name = ReverseArrayTests;
+			productName = ReverseArrayTests;
+			productReference = FD9020FF20F642EE0021AB25 /* ReverseArrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD90210920F642EE0021AB25 /* ReverseArrayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD90211920F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArrayUITests" */;
+			buildPhases = (
+				FD90210620F642EE0021AB25 /* Sources */,
+				FD90210720F642EE0021AB25 /* Frameworks */,
+				FD90210820F642EE0021AB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD90210C20F642EE0021AB25 /* PBXTargetDependency */,
+			);
+			name = ReverseArrayUITests;
+			productName = ReverseArrayUITests;
+			productReference = FD90210A20F642EE0021AB25 /* ReverseArrayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD9020DF20F642ED0021AB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "情风";
+				TargetAttributes = {
+					FD9020E620F642ED0021AB25 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FD9020FE20F642EE0021AB25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD9020E620F642ED0021AB25;
+					};
+					FD90210920F642EE0021AB25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD9020E620F642ED0021AB25;
+					};
+				};
+			};
+			buildConfigurationList = FD9020E220F642ED0021AB25 /* Build configuration list for PBXProject "ReverseArray" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9020DE20F642ED0021AB25;
+			productRefGroup = FD9020E820F642ED0021AB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD9020E620F642ED0021AB25 /* ReverseArray */,
+				FD9020FE20F642EE0021AB25 /* ReverseArrayTests */,
+				FD90210920F642EE0021AB25 /* ReverseArrayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD9020E520F642ED0021AB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9020F720F642ED0021AB25 /* LaunchScreen.storyboard in Resources */,
+				FD9020F420F642ED0021AB25 /* Assets.xcassets in Resources */,
+				FD9020F220F642ED0021AB25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9020FD20F642EE0021AB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD90210820F642EE0021AB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD9020E320F642ED0021AB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9020EF20F642ED0021AB25 /* ViewController.m in Sources */,
+				FD9020FA20F642ED0021AB25 /* main.m in Sources */,
+				FD9020EC20F642ED0021AB25 /* AppDelegate.m in Sources */,
+				FD90212120F6433C0021AB25 /* NSArray+Reverse.m in Sources */,
+				FD90212420F6448D0021AB25 /* NSMutableArray+Reverse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9020FB20F642EE0021AB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD90210420F642EE0021AB25 /* ReverseArrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD90210620F642EE0021AB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD90210F20F642EE0021AB25 /* ReverseArrayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD90210120F642EE0021AB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9020E620F642ED0021AB25 /* ReverseArray */;
+			targetProxy = FD90210020F642EE0021AB25 /* PBXContainerItemProxy */;
+		};
+		FD90210C20F642EE0021AB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD9020E620F642ED0021AB25 /* ReverseArray */;
+			targetProxy = FD90210B20F642EE0021AB25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD9020F020F642ED0021AB25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9020F120F642ED0021AB25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD9020F520F642ED0021AB25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD9020F620F642ED0021AB25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD90211120F642EE0021AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD90211220F642EE0021AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD90211420F642EE0021AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD90211520F642EE0021AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD90211720F642EE0021AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseArray.app/ReverseArray";
+			};
+			name = Debug;
+		};
+		FD90211820F642EE0021AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseArray.app/ReverseArray";
+			};
+			name = Release;
+		};
+		FD90211A20F642EE0021AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseArray;
+			};
+			name = Debug;
+		};
+		FD90211B20F642EE0021AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReverseArrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.ReverseArrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseArray;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD9020E220F642ED0021AB25 /* Build configuration list for PBXProject "ReverseArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD90211120F642EE0021AB25 /* Debug */,
+				FD90211220F642EE0021AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD90211320F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD90211420F642EE0021AB25 /* Debug */,
+				FD90211520F642EE0021AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD90211620F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD90211720F642EE0021AB25 /* Debug */,
+				FD90211820F642EE0021AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD90211920F642EE0021AB25 /* Build configuration list for PBXNativeTarget "ReverseArrayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD90211A20F642EE0021AB25 /* Debug */,
+				FD90211B20F642EE0021AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD9020DF20F642ED0021AB25 /* Project object */;
+}
