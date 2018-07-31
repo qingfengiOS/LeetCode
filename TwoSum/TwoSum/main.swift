@@ -27,4 +27,102 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
  
  还可以通过hash函数来降低时间复杂度
  */
-print(twoSum([1, 3, 4, 6, 9, 8], 15))
+
+
+
+class HashNode {
+    
+    var key: Int!
+    var value: Int!
+    var next: HashNode!
+}
+
+class HashaTable {
+    var buckets: Array<HashNode?>
+    
+    init(capacity: Int) {
+        self.buckets = Array<HashNode?>(repeating: nil, count: capacity)
+    }
+    
+    func containKey(_ key: Int) -> Bool {
+        for node in buckets {
+            if node?.key == key {
+                return true
+            }
+        }
+        return false
+    }
+ 
+    func getValueByKey(_ key: Int) -> Int {
+        
+        for node in buckets {
+            if node?.key == key {
+                return (node?.value)!
+            }
+        }
+        return 0
+    }
+}
+
+func createHash(total: Int, buckets: Array<HashNode?>) -> Int! {
+    var remainder: Int = 0
+    remainder = total % buckets.count
+    return remainder
+}
+
+func addWord(key: Int, value: Int, buckets: inout Array<HashNode?>) {
+    
+    var hashIndex: Int!
+    var head: HashNode!
+    
+    hashIndex = createHash(total: key + value, buckets: buckets)
+    
+    let childToUse: HashNode = HashNode()
+    childToUse.key = key
+    childToUse.value = value
+    
+    if buckets[hashIndex] == nil {
+        buckets[hashIndex] = childToUse
+    } else {
+        head = buckets[hashIndex]
+        childToUse.next = head
+        head = childToUse
+        
+        buckets[hashIndex] = head
+    }
+    
+    
+}
+
+
+func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+    
+    let hashTable = HashaTable(capacity: nums.count)
+    for i in 0...hashTable.buckets.count - 1 {
+        addWord(key: i, value: nums[i], buckets: &hashTable.buckets)
+    }
+    for i in 0...nums.count - 1 {
+        let complement = target - nums[i];
+        if hashTable.containKey(complement) && (hashTable.getValueByKey(complement) != i) {
+            return [i, hashTable.getValueByKey(complement)]
+        }
+    }
+
+    return []
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print(twoSum2([1, 3, 4, 6, 9, 8], 15))
