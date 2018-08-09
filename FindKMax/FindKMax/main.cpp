@@ -12,7 +12,7 @@
 void swap(int &a, int &b) {
     int temp = a;
     a = b;
-    b = a;
+    b = temp;
 }
 
 int partition(int  a[] ,int low , int high) {
