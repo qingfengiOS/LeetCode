@@ -31,7 +31,7 @@ func reverseWords(_ strng: String?) -> String? {
     guard strng != nil else {
         return nil
     }
-    var chars = Array(strng!.characters)
+    var chars = Array(strng!)
     var start = 0
     reverseString(&chars, start: 0, end: chars.count - 1)
     
