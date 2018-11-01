@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD580A97218AD38300C67302 /* Q167_TwoSum2.m */; };
 		FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9D121897A3800338E27 /* AppDelegate.m */; };
 		FD5DC9D521897A3800338E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9D421897A3800338E27 /* ViewController.m */; };
 		FD5DC9D821897A3800338E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5DC9D621897A3800338E27 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD580A96218AD38300C67302 /* Q167_TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q167_TwoSum2.h; sourceTree = "<group>"; };
+		FD580A97218AD38300C67302 /* Q167_TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q167_TwoSum2.m; sourceTree = "<group>"; };
 		FD5DC9CD21897A3800338E27 /* LeetCodeSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5DC9D021897A3800338E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD5DC9D121897A3800338E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 			children = (
 				FD5DCA0621897C1C00338E27 /* Q75_SortColors.h */,
 				FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */,
+				FD580A96218AD38300C67302 /* Q167_TwoSum2.h */,
+				FD580A97218AD38300C67302 /* Q167_TwoSum2.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			files = (
 				FD5DC9D521897A3800338E27 /* ViewController.m in Sources */,
 				FD5DC9E021897A3900338E27 /* main.m in Sources */,
+				FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */,
 				FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */,
 				FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */,
 			);

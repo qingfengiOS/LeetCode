@@ -2,7 +2,7 @@
 //  LeetCodeSeriesTests.m
 //  LeetCodeSeriesTests
 //
-//  Created by 李一平 on 2018/10/31.
+//  Created by 情风 on 2018/10/31.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 

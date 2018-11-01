@@ -2,7 +2,7 @@
 //  ViewController.m
 //  LeetCodeSeries
 //
-//  Created by 李一平 on 2018/10/31.
+//  Created by 情风 on 2018/10/31.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
@@ -28,6 +28,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellIdentifier];
     
     self.dataArray = @[@"Q75_SortColors",
+                       @"Q167_TwoSum2",
                    ];
 }
 
