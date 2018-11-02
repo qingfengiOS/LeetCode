@@ -17,6 +17,7 @@
 		FD5DC9EA21897A3900338E27 /* LeetCodeSeriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9E921897A3900338E27 /* LeetCodeSeriesTests.m */; };
 		FD5DC9F521897A3900338E27 /* LeetCodeSeriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9F421897A3900338E27 /* LeetCodeSeriesUITests.m */; };
 		FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */; };
+		FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		FD5DC9F621897A3900338E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5DCA0621897C1C00338E27 /* Q75_SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q75_SortColors.h; sourceTree = "<group>"; };
 		FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q75_SortColors.m; sourceTree = "<group>"; };
+		FDDB1CFE218C306B0079A8B2 /* Q283_MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q283_MoveZeros.h; sourceTree = "<group>"; };
+		FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q283_MoveZeros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */,
 				FD580A96218AD38300C67302 /* Q167_TwoSum2.h */,
 				FD580A97218AD38300C67302 /* Q167_TwoSum2.m */,
+				FDDB1CFE218C306B0079A8B2 /* Q283_MoveZeros.h */,
+				FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */,
 				FD5DC9D521897A3800338E27 /* ViewController.m in Sources */,
 				FD5DC9E021897A3900338E27 /* main.m in Sources */,
 				FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */,
