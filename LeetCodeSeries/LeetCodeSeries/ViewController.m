@@ -30,6 +30,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
     self.dataArray = @[@"Q75_SortColors",
                        @"Q167_TwoSum2",
                        @"Q283_MoveZeros",
+                       @"Q209_MinimumSizeSubarraySum",
                    ];
 }
 
