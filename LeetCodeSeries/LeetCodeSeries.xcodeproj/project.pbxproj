@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */; };
+		FD47D9A2219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */; };
 		FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD580A97218AD38300C67302 /* Q167_TwoSum2.m */; };
 		FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9D121897A3800338E27 /* AppDelegate.m */; };
 		FD5DC9D521897A3800338E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9D421897A3800338E27 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		FD0910AF2191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q03_LongestSubstringWithoutRepeatingCharaters.h; sourceTree = "<group>"; };
 		FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q03_LongestSubstringWithoutRepeatingCharaters.m; sourceTree = "<group>"; };
+		FD47D9A0219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q350_IntersectionOfTwoArraysII.h; sourceTree = "<group>"; };
+		FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q350_IntersectionOfTwoArraysII.m; sourceTree = "<group>"; };
 		FD580A96218AD38300C67302 /* Q167_TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q167_TwoSum2.h; sourceTree = "<group>"; };
 		FD580A97218AD38300C67302 /* Q167_TwoSum2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q167_TwoSum2.m; sourceTree = "<group>"; };
 		FD5DC9CD21897A3800338E27 /* LeetCodeSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +164,8 @@
 				FD9E1DF021901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m */,
 				FD0910AF2191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.h */,
 				FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */,
+				FD47D9A0219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.h */,
+				FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				FD5DC9D521897A3800338E27 /* ViewController.m in Sources */,
 				FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */,
 				FD5DC9E021897A3900338E27 /* main.m in Sources */,
+				FD47D9A2219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m in Sources */,
 				FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */,
 				FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */,
 				FD9E1DF121901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m in Sources */,
