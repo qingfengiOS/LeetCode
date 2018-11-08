@@ -2,11 +2,15 @@
 //  Q03_LongestSubstringWithoutRepeatingCharaters.m
 //  LeetCodeSeries
 //
-//  Created by 李一平 on 2018/11/6.
+//  Created by 情风 on 2018/11/6.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
 #import "Q03_LongestSubstringWithoutRepeatingCharaters.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 @interface Q03_LongestSubstringWithoutRepeatingCharaters ()
 
@@ -41,22 +45,28 @@
 - (NSInteger)longestSubstring:(NSString *)string {
     NSInteger left = 0, right = -1;
     NSInteger result = 0;
-    NSMutableArray *recordArray = @[].mutableCopy;
+    NSMutableDictionary *recordDic = @{}.mutableCopy;
 
     while (left < string.length) {//左边没到边界
-        char character = [string characterAtIndex:right + 1];
-        NSString *tempStr = [NSString stringWithFormat:@"%c",character];
+        char character;
+        NSString *rightTempStr;
         
-        if (right + 1 < string.length && ![recordArray containsObject:tempStr]) {//右边没到边界且记录中不包含这个元素
+        if ( right + 1 < string.length ) {
+            character = [string characterAtIndex:right + 1];
+            rightTempStr = [NSString stringWithFormat:@"%c",character];
+        }
+        
+        if (right + 1 < string.length && !recordDic[rightTempStr]) {//右边没到边界且记录中不包含这个元素
+            [recordDic setObject:@(right) forKey:rightTempStr];
             right++;
-            [recordArray addObject:tempStr];
         } else {
+            char character = [string characterAtIndex:left];
+            NSString *leftTempStr = [NSString stringWithFormat:@"%c",character];
+            [recordDic removeObjectForKey:leftTempStr];
             left++;
         }
-        result = MAX(result, left < right ? right - left + 1 : right - left + 1);
+        result = MAX(result, right - left + 1);
     }
     return result;
 }
-
-
 @end
