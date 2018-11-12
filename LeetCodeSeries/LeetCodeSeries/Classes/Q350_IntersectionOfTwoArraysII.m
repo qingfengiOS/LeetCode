@@ -52,14 +52,14 @@
     
     NSMutableArray *result = @[].mutableCopy;//结果数组
     
-    NSMutableDictionary *recordDic = @{}.mutableCopy;//记录num1中的数据 key：对应的数字， value：该数字出现的次数
+    NSMutableDictionary *recordDic = @{}.mutableCopy;//记录num1中的数据
     
-    for (NSInteger i = 0; i < num1.count; i++) {//遍历num2，如果记录里面有这个字段，那么是交集，加到结果数组，同时减一更新记录的字典
+    for (NSInteger i = 0; i < num1.count; i++) {//key：对应的数字， value：该数字出现的次数
         NSInteger countValue = [recordDic[num1[i]] integerValue];
         [recordDic setObject:@(countValue + 1) forKey:num1[i]];
     }
     
-    for (NSInteger j = 0; j < num2.count; j++) {
+    for (NSInteger j = 0; j < num2.count; j++) {//遍历num2，如果记录里面有这个字段，那么是交集，加到结果数组，同时减一更新记录的字典
         if (recordDic[num2[j]] && [recordDic[num2[j]] integerValue] != 0) {
             [result addObject:num2[j]];
             NSInteger countValue = [recordDic[num2[j]] integerValue];

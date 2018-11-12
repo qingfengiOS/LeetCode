@@ -33,6 +33,8 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
                        @"Q209_MinimumSizeSubarraySum",
                        @"Q03_LongestSubstringWithoutRepeatingCharaters",
                        @"Q350_IntersectionOfTwoArraysII",
+                       @"Q01_TwoSum",
+                       
                    ];
 }
 
