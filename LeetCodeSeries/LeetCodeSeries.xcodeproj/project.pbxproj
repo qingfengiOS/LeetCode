@@ -20,6 +20,7 @@
 		FD5DC9EA21897A3900338E27 /* LeetCodeSeriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9E921897A3900338E27 /* LeetCodeSeriesTests.m */; };
 		FD5DC9F521897A3900338E27 /* LeetCodeSeriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9F421897A3900338E27 /* LeetCodeSeriesUITests.m */; };
 		FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */; };
+		FD7E593F219AFD9F0063759E /* Q219_ContainsDuplicateII.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */; };
 		FD9E1DF121901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9E1DF021901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m */; };
 		FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		FD5DC9F621897A3900338E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5DCA0621897C1C00338E27 /* Q75_SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q75_SortColors.h; sourceTree = "<group>"; };
 		FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q75_SortColors.m; sourceTree = "<group>"; };
+		FD7E593D219AFD9F0063759E /* Q219_ContainsDuplicateII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q219_ContainsDuplicateII.h; sourceTree = "<group>"; };
+		FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q219_ContainsDuplicateII.m; sourceTree = "<group>"; };
 		FD9E1DEF21901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q209_MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
 		FD9E1DF021901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q209_MinimumSizeSubarraySum.m; sourceTree = "<group>"; };
 		FDDB1CFE218C306B0079A8B2 /* Q283_MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q283_MoveZeros.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */,
 				FD44E3D42199AB7B00C9321A /* Q01_TwoSum.h */,
 				FD44E3D52199AB7B00C9321A /* Q01_TwoSum.m */,
+				FD7E593D219AFD9F0063759E /* Q219_ContainsDuplicateII.h */,
+				FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7E593F219AFD9F0063759E /* Q219_ContainsDuplicateII.m in Sources */,
 				FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */,
 				FD44E3D62199AB7B00C9321A /* Q01_TwoSum.m in Sources */,
 				FD5DC9D521897A3800338E27 /* ViewController.m in Sources */,
