@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */; };
-		FD44E3D62199AB7B00C9321A /* Q01_TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD44E3D52199AB7B00C9321A /* Q01_TwoSum.m */; };
 		FD47D9A2219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */; };
 		FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD580A97218AD38300C67302 /* Q167_TwoSum2.m */; };
 		FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9D121897A3800338E27 /* AppDelegate.m */; };
@@ -22,6 +21,8 @@
 		FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */; };
 		FD7E593F219AFD9F0063759E /* Q219_ContainsDuplicateII.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */; };
 		FD9E1DF121901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9E1DF021901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m */; };
+		FDD2799D21AE406200934C19 /* Q344_ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD2799921AE406100934C19 /* Q344_ReverseString.m */; };
+		FDD279A121AE415100934C19 /* Q01_TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD2799F21AE415100934C19 /* Q01_TwoSum.m */; };
 		FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +46,6 @@
 /* Begin PBXFileReference section */
 		FD0910AF2191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q03_LongestSubstringWithoutRepeatingCharaters.h; sourceTree = "<group>"; };
 		FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q03_LongestSubstringWithoutRepeatingCharaters.m; sourceTree = "<group>"; };
-		FD44E3D42199AB7B00C9321A /* Q01_TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q01_TwoSum.h; sourceTree = "<group>"; };
-		FD44E3D52199AB7B00C9321A /* Q01_TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q01_TwoSum.m; sourceTree = "<group>"; };
 		FD47D9A0219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q350_IntersectionOfTwoArraysII.h; sourceTree = "<group>"; };
 		FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q350_IntersectionOfTwoArraysII.m; sourceTree = "<group>"; };
 		FD580A96218AD38300C67302 /* Q167_TwoSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q167_TwoSum2.h; sourceTree = "<group>"; };
@@ -73,6 +72,10 @@
 		FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q219_ContainsDuplicateII.m; sourceTree = "<group>"; };
 		FD9E1DEF21901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q209_MinimumSizeSubarraySum.h; sourceTree = "<group>"; };
 		FD9E1DF021901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q209_MinimumSizeSubarraySum.m; sourceTree = "<group>"; };
+		FDD2799921AE406100934C19 /* Q344_ReverseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q344_ReverseString.m; sourceTree = "<group>"; };
+		FDD2799C21AE406200934C19 /* Q344_ReverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q344_ReverseString.h; sourceTree = "<group>"; };
+		FDD2799F21AE415100934C19 /* Q01_TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q01_TwoSum.m; sourceTree = "<group>"; };
+		FDD279A021AE415100934C19 /* Q01_TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q01_TwoSum.h; sourceTree = "<group>"; };
 		FDDB1CFE218C306B0079A8B2 /* Q283_MoveZeros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q283_MoveZeros.h; sourceTree = "<group>"; };
 		FDDB1CFF218C306B0079A8B2 /* Q283_MoveZeros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q283_MoveZeros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +163,8 @@
 		FD5DCA0221897AE000338E27 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FDD279A021AE415100934C19 /* Q01_TwoSum.h */,
+				FDD2799F21AE415100934C19 /* Q01_TwoSum.m */,
 				FD5DCA0621897C1C00338E27 /* Q75_SortColors.h */,
 				FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */,
 				FD580A96218AD38300C67302 /* Q167_TwoSum2.h */,
@@ -172,10 +177,10 @@
 				FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */,
 				FD47D9A0219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.h */,
 				FD47D9A1219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m */,
-				FD44E3D42199AB7B00C9321A /* Q01_TwoSum.h */,
-				FD44E3D52199AB7B00C9321A /* Q01_TwoSum.m */,
 				FD7E593D219AFD9F0063759E /* Q219_ContainsDuplicateII.h */,
 				FD7E593E219AFD9F0063759E /* Q219_ContainsDuplicateII.m */,
+				FDD2799C21AE406200934C19 /* Q344_ReverseString.h */,
+				FDD2799921AE406100934C19 /* Q344_ReverseString.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -312,15 +317,16 @@
 			files = (
 				FD7E593F219AFD9F0063759E /* Q219_ContainsDuplicateII.m in Sources */,
 				FDDB1D00218C306B0079A8B2 /* Q283_MoveZeros.m in Sources */,
-				FD44E3D62199AB7B00C9321A /* Q01_TwoSum.m in Sources */,
 				FD5DC9D521897A3800338E27 /* ViewController.m in Sources */,
 				FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */,
+				FDD2799D21AE406200934C19 /* Q344_ReverseString.m in Sources */,
 				FD5DC9E021897A3900338E27 /* main.m in Sources */,
 				FD47D9A2219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m in Sources */,
 				FD580A98218AD38300C67302 /* Q167_TwoSum2.m in Sources */,
 				FD5DC9D221897A3800338E27 /* AppDelegate.m in Sources */,
 				FD9E1DF121901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m in Sources */,
 				FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */,
+				FDD279A121AE415100934C19 /* Q01_TwoSum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

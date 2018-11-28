@@ -2,7 +2,7 @@
 //  Q01_TwoSum.m
 //  LeetCodeSeries
 //
-//  Created by 情风 on 2018/11/12.
+//  Created by 情风 on 2018/11/9.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
@@ -14,7 +14,7 @@
 
 @implementation Q01_TwoSum
 
-/**
+/*
  给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
  
  你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
@@ -31,28 +31,25 @@
     NSLog(@"%@",[self twoSum:@[@2,@7,@11,@15] target:18]);
 }
 
-- (NSMutableArray *)twoSum:(NSArray *)nums target:(NSInteger )target {
-    NSMutableArray *result = @[].mutableCopy;
-    NSMutableDictionary *recordDic = @{}.mutableCopy;
-    
-    for (NSUInteger i = 0; i < nums.count; i++) {
-        [recordDic setObject:[NSNumber numberWithInteger:i] forKey:nums[i]];//value是下标 key是数组中对应的值
-    }
 
-    for (NSInteger j = 0; j < nums.count; j++) {
-        NSNumber *temp = [NSNumber numberWithInteger:target - [nums[j] integerValue]];
-        if (recordDic[temp] && recordDic[temp] != [NSNumber numberWithInteger:j]) {
-            [result addObject:[NSNumber numberWithInteger:j]];
-            [result addObject:recordDic[temp]];
-            return result;
+- (NSArray *)twoSum:(NSArray *)num target:(NSInteger)target {
+    
+    //以num[i]为key，i为value建立记录的字典
+    NSMutableDictionary *recordDic = @{}.mutableCopy;
+    for (int i = 0; i < num.count; i++) {
+        [recordDic setObject:@(i) forKey:num[i]];
+    }
+    
+    //以target-num[j]为key，在刚刚构建的字典中查找，找到则返回
+    for (int j = 0; j < num.count; j++) {
+        NSNumber *temp = num[j];
+        if (recordDic[@(target - [temp intValue])]) {
+            NSNumber *resIndex = recordDic[@(target - [temp intValue])];
+            return @[@(j),resIndex];
         }
     }
-    return result;
+    return @[].mutableCopy;
 }
-
-//step1：使用字典，以数组中每个元素的为key，以此元素的下标做value，建立记录字典
-//step2：遍历数组，以target-nums[j]为key，查找记录字典，找到则匹配成功
-
 
 
 @end
