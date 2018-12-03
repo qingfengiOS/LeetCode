@@ -36,6 +36,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
                        @"Q219_ContainsDuplicateII",
                        @"Q01_TwoSum",
                        @"Q344_ReverseString",
+                       @"Q206_ReverseLinkedList"
                    ];
 }
 
