@@ -1,14 +1,13 @@
 //
-//  Q206_ReverseLinkedList.h
+//  Q24_SwapNodesinPairs.h
 //  LeetCodeSeries
 //
-//  Created by 情风 on 2018/12/3.
+//  Created by liyiping on 2018/12/6.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
 #import "ViewController.h"
 
-@interface Q206_ReverseLinkedList : ViewController
+@interface Q24_SwapNodesinPairs : ViewController
 
 @end
-

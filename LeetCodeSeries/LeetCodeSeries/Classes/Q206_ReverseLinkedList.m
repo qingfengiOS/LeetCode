@@ -7,13 +7,21 @@
 //
 
 #import "Q206_ReverseLinkedList.h"
-
+#import "ListNode.h"
+#import "List.h"
 @interface Q206_ReverseLinkedList ()
 
 @end
 
 @implementation Q206_ReverseLinkedList
-
+/**
+ 反转一个单链表。
+ 
+ 示例:
+ 
+ 输入: 1->2->3->4->5->NULL
+ 输出: 5->4->3->2->1->NULL
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -31,63 +39,6 @@
         reversedListHead = reversedListHead.next;
     }
     
-}
-
-@end
-
-@implementation ListNode
-
-- (instancetype)initWithValue:(int)value {
-    if (self = [super init]) {
-        _value = value;
-        _next = nil;
-    }
-    return self;
-}
-@end
-
-@implementation List
-
-
-/**
- 插入元素 尾插法
- 
- @param value 元素值
- */
-- (void)appendTolist:(int)value {
-    if (_tail == nil) {//表尾为空
-        _tail = [[ListNode alloc]initWithValue:value];
-        _head = _tail;
-    } else {
-        _tail.next = [[ListNode alloc]initWithValue:value];
-        _tail = _tail.next;
-    }
-}
-
-- (int)accessList:(int)index {
-    if (index == 0) {
-        return self.head.value;
-    }
-    
-    int i = index;
-    ListNode *node = self.head;
-    while (i > 0) {
-        node = node.next;
-        i--;
-    }
-    return node.value;
-}
-
-- (ListNode *)reverseList:(ListNode *)head {
-    ListNode *preNode = nil;
-    ListNode *currentNode = head;
-    while (currentNode != nil) {
-        ListNode *next = currentNode.next;
-        currentNode.next = preNode;
-        preNode = currentNode;
-        currentNode = next;
-    }
-    return preNode;
 }
 
 @end
