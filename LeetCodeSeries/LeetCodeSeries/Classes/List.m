@@ -2,7 +2,7 @@
 //  List.m
 //  LeetCodeSeries
 //
-//  Created by liyiping on 2018/12/6.
+//  Created by 情风 on 2018/12/6.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
@@ -40,6 +40,13 @@
     return node.value;
 }
 
+#pragma mark - public
+/**
+ 链表反转
+ 
+ @param head 链表头节点
+ @return 反转后的表头节点
+ */
 - (ListNode *)reverseList:(ListNode *)head {
     ListNode *preNode = nil;
     ListNode *currentNode = head;
@@ -52,4 +59,30 @@
     return preNode;
 }
 
+/**
+ 移除链表中的指定元素
+ 
+ @param head 头结点
+ @param element 目标元素
+ @return 移除后的表头节点
+ */
+- (ListNode *)removeElement:(ListNode *)head element:(int)element {
+    
+    ListNode *dummyHead = [[ListNode alloc]initWithValue:0];
+    dummyHead.next = head;
+    
+    ListNode *currentNode = dummyHead;
+    ListNode *deleteNode;
+    while (currentNode.next != nil) {
+        if (currentNode.next.value == element) {
+            deleteNode = currentNode.next;
+            currentNode.next = deleteNode.next;
+        } else {
+            currentNode = currentNode.next;
+        }
+    }
+    ListNode *resultNode = dummyHead.next;
+    dummyHead = nil;
+    return resultNode;
+}
 @end

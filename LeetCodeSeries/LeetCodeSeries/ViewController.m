@@ -38,6 +38,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
                        @"Q344_ReverseString",
                        @"Q206_ReverseLinkedList",
                        @"Q24_SwapNodesinPairs",
+                       @"Q203_RemoveLinkedListElements"
                    ];
 }
 
@@ -54,6 +55,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     Class class = NSClassFromString(self.dataArray[indexPath.row]);
-    [self.navigationController pushViewController:[class new] animated:YES];
+    id viewController = [[class alloc]init];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 @end

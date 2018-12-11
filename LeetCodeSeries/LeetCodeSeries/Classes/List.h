@@ -2,7 +2,7 @@
 //  List.h
 //  LeetCodeSeries
 //
-//  Created by liyiping on 2018/12/6.
+//  Created by 情风 on 2018/12/6.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
@@ -38,4 +38,14 @@
  @return 反转后的表头节点
  */
 - (ListNode *)reverseList:(ListNode *)head;
+
+
+/**
+ 移除链表中的指定元素
+
+ @param head 头结点
+ @param element 目标元素
+ @return 移除后的表头节点
+ */
+- (ListNode *)removeElement:(ListNode *)head element:(int)element ;
 @end

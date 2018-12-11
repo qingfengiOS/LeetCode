@@ -19,6 +19,7 @@
 		FD5DC9EA21897A3900338E27 /* LeetCodeSeriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9E921897A3900338E27 /* LeetCodeSeriesTests.m */; };
 		FD5DC9F521897A3900338E27 /* LeetCodeSeriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DC9F421897A3900338E27 /* LeetCodeSeriesUITests.m */; };
 		FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */; };
+		FD68D09721BFE4B100A6486B /* Q203_RemoveLinkedListElements.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68D09621BFE4B100A6486B /* Q203_RemoveLinkedListElements.m */; };
 		FD7E07AC21B9611C0024BC0B /* Q206_ReverseLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E07AA21B9611C0024BC0B /* Q206_ReverseLinkedList.m */; };
 		FD7E07AF21B9617F0024BC0B /* Q24_SwapNodesinPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E07AE21B9617F0024BC0B /* Q24_SwapNodesinPairs.m */; };
 		FD7E07B221B962000024BC0B /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E07B121B962000024BC0B /* ListNode.m */; };
@@ -72,6 +73,8 @@
 		FD5DC9F621897A3900338E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5DCA0621897C1C00338E27 /* Q75_SortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q75_SortColors.h; sourceTree = "<group>"; };
 		FD5DCA0721897C1C00338E27 /* Q75_SortColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q75_SortColors.m; sourceTree = "<group>"; };
+		FD68D09521BFE4B100A6486B /* Q203_RemoveLinkedListElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q203_RemoveLinkedListElements.h; sourceTree = "<group>"; };
+		FD68D09621BFE4B100A6486B /* Q203_RemoveLinkedListElements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q203_RemoveLinkedListElements.m; sourceTree = "<group>"; };
 		FD7E07AA21B9611C0024BC0B /* Q206_ReverseLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q206_ReverseLinkedList.m; sourceTree = "<group>"; };
 		FD7E07AB21B9611C0024BC0B /* Q206_ReverseLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q206_ReverseLinkedList.h; sourceTree = "<group>"; };
 		FD7E07AD21B9617F0024BC0B /* Q24_SwapNodesinPairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q24_SwapNodesinPairs.h; sourceTree = "<group>"; };
@@ -201,6 +204,8 @@
 				FD7E07B121B962000024BC0B /* ListNode.m */,
 				FD7E07B321B9623B0024BC0B /* List.h */,
 				FD7E07B421B9623B0024BC0B /* List.m */,
+				FD68D09521BFE4B100A6486B /* Q203_RemoveLinkedListElements.h */,
+				FD68D09621BFE4B100A6486B /* Q203_RemoveLinkedListElements.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				FD9E1DF121901DF5009E05A9 /* Q209_MinimumSizeSubarraySum.m in Sources */,
 				FD5DCA0821897C1C00338E27 /* Q75_SortColors.m in Sources */,
 				FD7E07B521B9623B0024BC0B /* List.m in Sources */,
+				FD68D09721BFE4B100A6486B /* Q203_RemoveLinkedListElements.m in Sources */,
 				FD7E07B221B962000024BC0B /* ListNode.m in Sources */,
 				FDD279A121AE415100934C19 /* Q01_TwoSum.m in Sources */,
 			);
