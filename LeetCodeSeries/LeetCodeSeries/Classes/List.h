@@ -48,4 +48,14 @@
  @return 移除后的表头节点
  */
 - (ListNode *)removeElement:(ListNode *)head element:(int)element ;
+
+
+/**
+ 移除链表中元素等于指定值的节点
+
+ @param head 表头节点
+ @param deleteValue 需要被移除的节点值
+ */
+- (void)deleteNode:(ListNode *)head deleteValue:(int)deleteValue;
+
 @end

@@ -38,7 +38,8 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
                        @"Q344_ReverseString",
                        @"Q206_ReverseLinkedList",
                        @"Q24_SwapNodesinPairs",
-                       @"Q203_RemoveLinkedListElements"
+                       @"Q203_RemoveLinkedListElements",
+                       @"Q237_DeleteNodeInaLinkedList"
                    ];
 }
 

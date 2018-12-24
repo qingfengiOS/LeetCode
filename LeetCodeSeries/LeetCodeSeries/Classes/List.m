@@ -85,4 +85,27 @@
     dummyHead = nil;
     return resultNode;
 }
+
+/**
+ 移除链表中元素等于指定值的节点
+ 
+ @param head 表头节点
+ @param deleteValue 需要被移除的节点值
+ */
+- (void)deleteNode:(ListNode *)head deleteValue:(int)deleteValue {
+    
+    while (head != nil) {
+        
+        if (head.value == deleteValue) {
+            head.value = head.next.value;
+            ListNode *deleteNode = head.next;//找到要被删除的节点
+            head.next = deleteNode.next;//修改指针节点
+            deleteNode = nil;//清空需要删除的节点
+            return;
+        } else {
+            head = head.next;
+        }
+    }
+}
+
 @end
