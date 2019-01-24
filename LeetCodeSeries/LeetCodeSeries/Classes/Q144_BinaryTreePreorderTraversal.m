@@ -36,6 +36,11 @@
 
 // 前序：根->左->右
 /**
+ 1、入栈根节点
+ 栈非空时 循环执行以下步骤：
+ 2、出栈栈顶节点，出栈节点的值加入结果数组
+ 3、栈的右节点非空，入栈右节点
+ 4、栈的左节点非空，入栈左节点
  */
 - (NSMutableArray *)accessTreeByPreorder:(TreeNode *)root {
     NSMutableArray *resultArray = @[].mutableCopy;
