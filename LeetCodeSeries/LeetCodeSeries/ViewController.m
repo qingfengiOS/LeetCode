@@ -43,6 +43,7 @@ static NSString *const kCellIdentifier = @"cellIdentifier";
                        @"Q20_ValidParentheses",
                        @"Q94_BinaryTreeInorderTraversal",
                        @"Q102_BinaryTreeLevelOrderTraversal",
+                       @"Q144_BinaryTreePreorderTraversal",
                    ];
 }
 

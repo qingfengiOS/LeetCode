@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */; };
+		FD25E53121F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = FD25E53021F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.m */; };
 		FD2C7F7F21E38B41006BDD35 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C7F7E21E38B41006BDD35 /* TreeNode.m */; };
 		FD2C7F8521E38C24006BDD35 /* Q94_BinaryTreeInorderTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2C7F8421E38C24006BDD35 /* Q94_BinaryTreeInorderTraversal.m */; };
 		FD2ED63521D111FD0070FCFE /* Q237_DeleteNodeInaLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2ED63421D111FD0070FCFE /* Q237_DeleteNodeInaLinkedList.m */; };
@@ -58,6 +59,8 @@
 /* Begin PBXFileReference section */
 		FD0910AF2191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q03_LongestSubstringWithoutRepeatingCharaters.h; sourceTree = "<group>"; };
 		FD0910B02191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q03_LongestSubstringWithoutRepeatingCharaters.m; sourceTree = "<group>"; };
+		FD25E52F21F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q144_BinaryTreePreorderTraversal.h; sourceTree = "<group>"; };
+		FD25E53021F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q144_BinaryTreePreorderTraversal.m; sourceTree = "<group>"; };
 		FD2C7F7D21E38B41006BDD35 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		FD2C7F7E21E38B41006BDD35 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		FD2C7F8321E38C24006BDD35 /* Q94_BinaryTreeInorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q94_BinaryTreeInorderTraversal.h; sourceTree = "<group>"; };
@@ -239,6 +242,8 @@
 				FD2C7F8421E38C24006BDD35 /* Q94_BinaryTreeInorderTraversal.m */,
 				FDFF4F5821E87A4C00FCA342 /* Q102_BinaryTreeLevelOrderTraversal.h */,
 				FDFF4F5921E87A4C00FCA342 /* Q102_BinaryTreeLevelOrderTraversal.m */,
+				FD25E52F21F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.h */,
+				FD25E53021F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.m */,
 				FDFF4F5B21E87DFF00FCA342 /* Queue.h */,
 				FDFF4F5C21E87DFF00FCA342 /* Queue.m */,
 			);
@@ -382,6 +387,7 @@
 				FD2C7F8521E38C24006BDD35 /* Q94_BinaryTreeInorderTraversal.m in Sources */,
 				FD0910B12191827E00D04551 /* Q03_LongestSubstringWithoutRepeatingCharaters.m in Sources */,
 				FDD2799D21AE406200934C19 /* Q344_ReverseString.m in Sources */,
+				FD25E53121F9B374007815C2 /* Q144_BinaryTreePreorderTraversal.m in Sources */,
 				FD5DC9E021897A3900338E27 /* main.m in Sources */,
 				FD47D9A2219461D3004CC18A /* Q350_IntersectionOfTwoArraysII.m in Sources */,
 				FD48B57A21DDE80F00A4EDAC /* Stack.m in Sources */,
